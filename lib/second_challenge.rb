@@ -5,10 +5,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  grocery_items = []
-  grocery_items << groceries[:dairy].values
-  grocery_items << groceries[:vegetable].values
-  grocery_items << groceries[:meat].values
-  grocery_items << groceries[:grains].values
+
+  groceries.each do |type, item|
+    
+  end
+
 
 end
