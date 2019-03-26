@@ -8,5 +8,5 @@ def second_challenge
 
   items = []
 
-  groceries.values
+  groceries.values.split(" ")
 end
