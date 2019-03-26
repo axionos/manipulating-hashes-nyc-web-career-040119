@@ -8,5 +8,5 @@ def second_challenge
 
   items = []
 
-  items << groceries.values
+  groceries.values
 end
