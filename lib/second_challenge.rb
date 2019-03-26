@@ -10,6 +10,6 @@ def second_challenge
   groceries.each do |type, item|
     items << item.values
   end
-
+  items
 
 end
