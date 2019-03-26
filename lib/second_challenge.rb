@@ -5,7 +5,7 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
+  grocery_items = []
   groceries[:dairy].values
   groceries[:vegetable].values
   groceries[:meat].values
