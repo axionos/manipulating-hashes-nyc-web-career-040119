@@ -8,9 +8,7 @@ def second_challenge
 
   items = []
   groceries.each do |type, item|
-    item.values
-
-    end
+    items << item.values
   end
 
 
