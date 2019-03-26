@@ -6,7 +6,5 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  items = []
-
   groceries.values.join(" ").split(" ")
 end
