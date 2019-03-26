@@ -6,9 +6,9 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   grocery_items = []
-  groceries[:dairy].values
-  groceries[:vegetable].values
-  groceries[:meat].values
-  groceries[:grains].values
+  grocery_items << groceries[:dairy].values
+  grocery_items << groceries[:vegetable].values
+  grocery_items << groceries[:meat].values
+  grocery_items <<groceries[:grains].values
 
 end
