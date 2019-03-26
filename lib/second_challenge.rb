@@ -9,6 +9,6 @@ def second_challenge
   grocery_items << groceries[:dairy].values
   grocery_items << groceries[:vegetable].values
   grocery_items << groceries[:meat].values
-  grocery_items <<groceries[:grains].values
+  grocery_items << groceries[:grains].values
 
 end
