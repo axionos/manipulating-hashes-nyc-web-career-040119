@@ -7,6 +7,8 @@ def second_challenge
   }
 
   groceries[:dairy].values
-
+  groceries[:vegetable].values
+  groceries[:meat].values
+  groceries[:grains].values
 
 end
